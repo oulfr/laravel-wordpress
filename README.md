@@ -17,7 +17,7 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
  
  
  
- Then in your routes us the middleware <strong>has_cap</strong> with capabilites or roles created in your wordpress:
+ Then in your routes use the middleware <strong>has_cap</strong> with capabilites or roles created in your wordpress:
  
  ```php
 $router->group([
